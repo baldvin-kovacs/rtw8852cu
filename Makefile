@@ -653,7 +653,7 @@ ifneq ($(USER_MODULE_NAME),)
 MODULE_NAME := $(USER_MODULE_NAME)
 endif
 
-ifneq ($(KERNELRELEASE),)
+ifneq ($(src),)
 ########### COMMON #################################
 include $(src)/common.mk
 
